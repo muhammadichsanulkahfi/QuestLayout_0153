@@ -120,11 +120,10 @@ fun ActivitasPertama(modifier: Modifier) {
     }
 }
 
-
-Spacer(modifier = Modifier.height(15.dp))
+Spacer(modifier = Modifier.height(8.dp))
 
 Text(
-text = "Nama : Muhammad Ikhsanul Kahfi",
+text = "Program Studi : Informatika",
 fontSize = 18.sp,
 color = Color.White
 )
