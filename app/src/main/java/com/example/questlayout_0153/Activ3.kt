@@ -123,18 +123,14 @@ fun ActivitasPertama(modifier: Modifier) {
 
 Column(
 modifier = Modifier
-.padding(top = 100.dp)
-.fillMaxSize(),
+.fillMaxWidth()
+.padding(20.dp),
 horizontalAlignment = Alignment.CenterHorizontally
 ) {
     Text(
-        stringResource(id = R.string.prodi),
-        fontSize = 35.sp,
-        fontWeight = FontWeight.Bold
-    )
-
-    Text(
-        stringResource(id = R.string.univ),
-        fontSize = 22.sp
+        text = "Biodata Mahasiswa",
+        fontSize = 25.sp,
+        fontWeight = FontWeight.Bold,
+        color = Color.White
     )
 }
