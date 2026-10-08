@@ -120,6 +120,7 @@ fun ActivitasPertama(modifier: Modifier) {
     }
 }
 
+
 @Composable
 fun ActivitasPertama(modifier: Modifier) {
     Column(
@@ -128,5 +129,10 @@ fun ActivitasPertama(modifier: Modifier) {
             .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        Text(
+            stringResource(id = R.string.prodi),
+            fontSize = 35.sp,
+            fontWeight = FontWeight.Bold
+        )
     }
 }
