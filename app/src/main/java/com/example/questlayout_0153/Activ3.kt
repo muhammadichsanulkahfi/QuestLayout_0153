@@ -123,7 +123,10 @@ fun ActivitasPertama(modifier: Modifier) {
 @Composable
 fun ActivitasPertama(modifier: Modifier) {
     Column(
-        modifier = Modifier.fillMaxSize()
+        modifier = Modifier
+            .padding(top = 100.dp)
+            .fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally
     ) {
     }
 }
