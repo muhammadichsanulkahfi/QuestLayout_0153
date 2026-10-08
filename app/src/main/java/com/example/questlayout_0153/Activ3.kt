@@ -121,16 +121,10 @@ fun ActivitasPertama(modifier: Modifier) {
 }
 
 
-Column(
-modifier = Modifier
-.fillMaxWidth()
-.padding(20.dp),
-horizontalAlignment = Alignment.CenterHorizontally
-) {
-    Text(
-        text = "Biodata Mahasiswa",
-        fontSize = 25.sp,
-        fontWeight = FontWeight.Bold,
-        color = Color.White
-    )
-}
+Spacer(modifier = Modifier.height(15.dp))
+
+Text(
+text = "Nama : Muhammad Ikhsanul Kahfi",
+fontSize = 18.sp,
+color = Color.White
+)
